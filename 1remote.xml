@@ -4,7 +4,8 @@
           fetch="https://github.com/" />
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-18.1" />
-  <remote name="gitea"
-          fetch="https://gitea.com/sbwml" />
+          revision="lineage-20.0" />
+  <remote name="evo-gitlab"
+          fetch="https://gitlab.com/EvoX"
+          revision="refs/heads/udc" />
 </manifest>

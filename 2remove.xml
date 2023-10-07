@@ -22,19 +22,11 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
-  <remove-project name="device/google/bonito" />
-  <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/coral" />
-  <remove-project name="device/google/coral-kernel" />
-  <remove-project name="device/google/coral-sepolicy" />
-  <remove-project name="device/google/crosshatch" />
-  <remove-project name="device/google/crosshatch-kernel" />
-  <remove-project name="device/google/crosshatch-sepolicy" />
-  <remove-project name="device/google/fuchsia" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_prebuilts" />
   <remove-project name="device/google/redbull" />
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
@@ -44,10 +36,7 @@
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/sample" />
-  <remove-project name="device/ti/beagle-x15" />
-  <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="kernel/prebuilts/4.19/arm64" />
   <remove-project name="kernel/tests" />
   <remove-project name="device/linaro/poplar-kernel" />
@@ -65,56 +54,26 @@
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8994" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8x09" />
-  <remove-project name="platform/hardware/qcom/msm8x26" />
-  <remove-project name="platform/hardware/qcom/msm8x27" />
-  <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/hardware/qcom/sdm845/bt" />
-  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/qcom/sdm845/gps" />
-  <remove-project name="platform/hardware/qcom/sdm845/media" />
-  <remove-project name="platform/hardware/qcom/sdm845/thermal" />
-  <remove-project name="platform/hardware/qcom/sdm845/vr" />
-  <remove-project name="platform/hardware/qcom/sm7150/gps" />
-  <remove-project name="platform/hardware/qcom/sm7250/display" />
-  <remove-project name="platform/hardware/qcom/sm7250/gps" />
-  <remove-project name="platform/hardware/qcom/sm7250/media" />
-  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sm8150/display" />
-  <remove-project name="platform/hardware/qcom/sm8150/gps" />
-  <remove-project name="platform/hardware/qcom/sm8150/media" />
-  <remove-project name="platform/hardware/qcom/sm8150/thermal" />
-  <remove-project name="platform/hardware/qcom/sm8150/vr" />
-  <remove-project name="platform/hardware/qcom/sm8150p/gps" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/openwrt-prebuilts" />
   <remove-project name="platform/external/tinycompress" />
+  
 
   <!-- Framework repos -->
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/native" />
-
-  <!-- Packages repos -->
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
-
-  <!-- Prebuilts Repos -->
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
   <!-- Recovery Repos -->
   <remove-project name="platform/bootable/recovery" />
 
   <!-- System Repos -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
