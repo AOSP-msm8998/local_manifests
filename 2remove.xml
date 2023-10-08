@@ -64,8 +64,12 @@
   
 
   <!-- Framework repos -->
+  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/native" />
+
+  <!-- Packages repos -->
+  <remove-project name="platform/packages/modules/Connectivity" />
 
   <!-- Recovery Repos -->
   <remove-project name="platform/bootable/recovery" />
@@ -74,6 +78,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
