@@ -32,6 +32,13 @@
   </project>
   <project path="vendor/qcom/opensource/power" name="AOSP-msm8998/vendor_qcom_opensource_power" revision="14" remote="github" />
 
+  <!-- device Repos -->
+  <project path="device/xiaomi/sagit" name="AOSP-msm8998/device_xiaomi_sagit" revision="14" remote="github" />
+  <project path="device/xiaomi/msm8998-common" name="AOSP-msm8998/device_xiaomi_msm8998-common" revision="14" remote="github" />
+  <project path="vendor/xiaomi/sagit" name="AOSP-msm8998/vendor_xiaomi_sagit" revision="14" remote="github" />
+  <project path="vendor/xiaomi/msm8998-common" name="AOSP-msm8998/vendor_xiaomi_msm8998-common" revision="14" remote="github" />
+  <project path="kernel/xiaomi/msm8998" name="AOSP-msm8998/kernel_xiaomi_msm8998" revision="14" remote="github" />
+
   <!-- General repos -->
   <project path="build/make" name="AOSP-msm8998/build" revision="14" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
