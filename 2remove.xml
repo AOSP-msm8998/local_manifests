@@ -61,9 +61,9 @@
   <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/openwrt-prebuilts" />
   <remove-project name="platform/external/tinycompress" />
-  
 
   <!-- Framework repos -->
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/native" />

@@ -76,6 +76,7 @@
   </project>
 
   <!-- Framework repos -->
+  <project path="frameworks/base" name="AOSP-msm8998/frameworks_base" revision="14" remote="github" />
   <project path="frameworks/libs/net" name="AOSP-msm8998/frameworks_libs_net" revision="14-hack" remote="github" />
   <project path="frameworks/opt/telephony" name="AOSP-msm8998/frameworks_opt_telephony" revision="14" remote="github" />
   <project path="frameworks/native" name="AOSP-msm8998/frameworks_native" revision="14" remote="github" />
