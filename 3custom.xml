@@ -60,7 +60,7 @@
   <!--project path="vendor/support" name="AOSP-msm8998/vendor_support" revision="12" remote="github" /-->
 
   <!-- External repos -->
-  <project path="external/cronet" name="external_cronet" remote="evo-gitlab" />
+  <project path="external/cronet" name="android_external_cronet" revision="lineage-21.0" remote="lineage" />
   <project path="external/external_ntfs-3g" name="AOSP-11/external_ntfs-3g" revision="11" remote="github" />
   <project path="external/tinycompress" name="AOSP-msm8998/external_tinycompress" revision="master" remote="github" />
 

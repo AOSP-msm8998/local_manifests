@@ -5,7 +5,4 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-20.0" />
-  <remote name="evo-gitlab"
-          fetch="https://gitlab.com/EvoX"
-          revision="refs/heads/udc" />
 </manifest>
